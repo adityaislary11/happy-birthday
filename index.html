@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#182849">
+  <meta name="description" content="A little birthday website made with love.">
+  <title>A Little Birthday Love ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="floating-doodles" aria-hidden="true"><span>♡</span><span>✦</span><span>✿</span><span>♡</span><span>✧</span><span>♥</span></div>
+
+  <header class="hero" id="top">
+    <nav class="topbar" aria-label="Main navigation">
+      <a class="brand" href="#top"><span class="brand-icon">♡</span> a little something</a>
+      <a class="nav-link" href="#letter">your letter <span>↘</span></a>
+    </nav>
+
+    <div class="hero-content">
+      <div class="tiny-label"><span class="tiny-heart">♥</span> MADE JUST FOR YOU <span class="tiny-heart">♥</span></div>
+      <h1>Happy Birthday,<br><span>you lovely human!</span></h1>
+      <p class="hero-copy">Today deserves a little extra sparkle, a lot of laughter, and all the love in the world.</p>
+      <a class="pill-button" href="#memories">Open your little surprise <span>↓</span></a>
+    </div>
+
+    <div class="birthday-art" aria-label="Illustration of a birthday cake with candles">
+      <div class="art-sparkle sparkle-a">✦</div><div class="art-sparkle sparkle-b">✧</div>
+      <div class="balloon balloon-pink"><span></span></div><div class="balloon balloon-blue"><span></span></div>
+      <div class="cake-candle candle-one"><i></i></div><div class="cake-candle candle-two"><i></i></div><div class="cake-candle candle-three"><i></i></div>
+      <div class="cake cake-top"><div class="frosting"></div><span class="cake-dot dot-one"></span><span class="cake-dot dot-two"></span><span class="cake-dot dot-three"></span></div>
+      <div class="cake cake-bottom"><span class="cake-heart">♥</span><span class="cake-heart">♥</span><span class="cake-heart">♥</span></div>
+      <div class="cake-plate"></div>
+      <div class="art-caption">a whole day for YOU!</div>
+    </div>
+    <div class="hero-bottom-note"><span>✿</span> scroll down, birthday star <span>✿</span></div>
+  </header>
+
+  <main>
+    <section class="section letter-section" id="letter">
+      <div class="section-intro">
+        <span class="section-icon">💌</span>
+        <p class="overline">A LITTLE NOTE FROM ME</p>
+        <h2>Words just for you</h2>
+        <p class="section-copy">A small space for the things you want her to know.</p>
+      </div>
+      <article class="letter-paper">
+        <div class="paper-tape" aria-hidden="true"></div>
+        <div class="paper-top"><span>dear birthday girl,</span><span class="paper-heart">♡</span></div>
+        <!-- Write your own birthday letter inside this empty area. -->
+        <div class="editable-space" aria-label="Your birthday letter"></div>
+        <div class="paper-signoff"><span>with lots of love,</span><span class="signature-line"></span></div>
+        <div class="paper-stamp" aria-hidden="true">MADE<br>WITH<br>♡</div>
+      </article>
+    </section>
+
+    <section class="section memories-section" id="memories">
+      <div class="section-intro">
+        <span class="section-icon">📸</span>
+        <p class="overline">LITTLE MOMENTS, BIG FEELINGS</p>
+        <h2>Three tiny memories</h2>
+        <p class="section-copy">Not a huge gallery—just three spots for moments worth keeping.</p>
+      </div>
+
+      <div class="memory-grid">
+        <figure class="memory-card memory-one">
+          <div class="photo-shell">
+            <img class="memory-image" src="assets/images/image-1.svg" alt="Memory one" data-placeholder="placeholder-1">
+            <div class="photo-placeholder" id="placeholder-1">
+              <span class="placeholder-doodle">♡</span><strong>image-1.svg</strong><small>assets/images/image-1.svg</small><span class="placeholder-hint">Your first photo goes here</span>
+              <label class="upload-link">Choose a photo<input type="file" accept="image/*" data-target="preview-1" aria-label="Choose first photo"></label>
+            </div>
+            <img class="upload-preview" id="preview-1" alt="Selected first photo" hidden>
+          </div>
+          <figcaption><span class="caption-number">01</span><!-- Add a caption if you want. --></figcaption>
+          <span class="card-decoration decor-heart" aria-hidden="true">♥</span>
+        </figure>
+
+        <figure class="memory-card memory-two">
+          <div class="photo-shell">
+            <img class="memory-image" src="assets/images/image-2.svg" alt="Memory two" data-placeholder="placeholder-2">
+            <div class="photo-placeholder" id="placeholder-2">
+              <span class="placeholder-doodle">✿</span><strong>image-2.svg</strong><small>assets/images/image-2.svg</small><span class="placeholder-hint">Your second photo goes here</span>
+              <label class="upload-link">Choose a photo<input type="file" accept="image/*" data-target="preview-2" aria-label="Choose second photo"></label>
+            </div>
+            <img class="upload-preview" id="preview-2" alt="Selected second photo" hidden>
+          </div>
+          <figcaption><span class="caption-number">02</span><!-- Add a caption if you want. --></figcaption>
+          <span class="card-decoration decor-star" aria-hidden="true">✦</span>
+        </figure>
+
+        <figure class="memory-card memory-three">
+          <div class="photo-shell">
+            <img class="memory-image" src="assets/images/image-3.svg" alt="Memory three" data-placeholder="placeholder-3">
+            <div class="photo-placeholder" id="placeholder-3">
+              <span class="placeholder-doodle">✧</span><strong>image-3.svg</strong><small>assets/images/image-3.svg</small><span class="placeholder-hint">Your third photo goes here</span>
+              <label class="upload-link">Choose a photo<input type="file" accept="image/*" data-target="preview-3" aria-label="Choose third photo"></label>
+            </div>
+            <img class="upload-preview" id="preview-3" alt="Selected third photo" hidden>
+          </div>
+          <figcaption><span class="caption-number">03</span><!-- Add a caption if you want. --></figcaption>
+          <span class="card-decoration decor-flower" aria-hidden="true">✿</span>
+        </figure>
+      </div>
+      <p class="gallery-note"><span>♡</span> Add your SVGs later—or preview a photo right now. <span>♡</span></p>
+    </section>
+
+    <section class="section wishes-section" id="wishes">
+      <div class="section-intro">
+        <span class="section-icon">🎀</span>
+        <p class="overline">A WISH FOR YOUR NEW YEAR</p>
+        <h2>May it be your kind of magic</h2>
+        <p class="section-copy">Leave your own wishes here—big dreams, little joys, and everything between.</p>
+      </div>
+      <div class="wish-card">
+        <span class="wish-corner wish-corner-one" aria-hidden="true">✦</span><span class="wish-corner wish-corner-two" aria-hidden="true">♡</span>
+        <!-- Write your own birthday wishes inside this empty area. -->
+        <div class="wishes-writing-space" aria-label="Your birthday wishes"></div>
+        <div class="wish-bottom">A NEW CHAPTER • A LITTLE MORE MAGIC • LOTS OF LOVE</div>
+      </div>
+    </section>
+
+    <section class="closing-section">
+      <div class="closing-confetti" aria-hidden="true"><span>✦</span><span>♡</span><span>✿</span></div>
+      <p class="overline">ONE LAST THING...</p>
+      <h2>Keep being your<br><span>wonderful self.</span></h2>
+      <!-- Optional closing message: write it here if you want. -->
+      <div class="closing-message-space" aria-label="Optional closing message"></div>
+      <a href="#top" class="back-top">Back to the top ↑</a>
+    </section>
+  </main>
+
+  <footer class="footer"><span>made with</span> <span class="footer-heart">♥</span> <span>and a little birthday magic</span></footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
